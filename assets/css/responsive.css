@@ -78,6 +78,40 @@
   .navbar__link:hover {
     background-color: #00ffff37;
   }
+  /*9. khối hero  */
+  .hero {
+    flex-direction: column;
+    row-gap: 50px;
+  }
+  .hero__content {
+    order: 2;
+    text-align: center;
+    width: 80%;
+    margin: 22px auto;
+  }
+  .hero__media {
+    order: 1;
+  }
+  .hero__row {
+    justify-content: center;
+    row-gap: 20px;
+  }
+  /* 10. khối service */
+  .service__row {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .service__img {
+    width: 100%;
+  }
+  .service__list {
+    text-align: center;
+    justify-content: center;
+  }
+  .service-item {
+    width: 90%;
+    text-align: start;
+  }
 }
 /* Table */
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -86,8 +120,6 @@
 @media (min-width: 767.98px) {
 }
 /* tạm ẩn không liên quan */
-.hero,
-.footer,
-.main {
+.footer {
   display: none;
 }
