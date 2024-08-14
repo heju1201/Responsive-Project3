@@ -112,6 +112,47 @@
     width: 90%;
     text-align: start;
   }
+  /* 11. khối work */
+  .work__desc,
+  .work__heading {
+    text-align: center;
+  }
+  .work__desc {
+    margin: 0 auto;
+  }
+  .work__list {
+    grid-template-columns: 1fr;
+    row-gap: 30px;
+  }
+  /* 12. khối about */
+  /*      .about-row {
+           flex-direction: column;
+           row-gap: 160px;
+           align-items: center;
+           justify-content: center;
+          }
+            */
+
+  .about-row {
+    flex-direction: column;
+    row-gap: 30px;
+    align-items: center;
+    justify-content: center;
+  }
+  .about__media {
+    width: 100%;
+  }
+  .about__img--small {
+    display: none;
+  }
+  .about__img--big {
+    width: 100%;
+    border-radius: 15px;
+  }
+  .about-content {
+    width: 80%;
+    text-align: center;
+  }
 }
 /* Table */
 @media (min-width: 768px) and (max-width: 991.98px) {
