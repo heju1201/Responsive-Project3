@@ -174,6 +174,41 @@
     width: 90%;
     margin: 0 auto;
   }
+  /* 15. khối blog */
+  .blog__inner {
+    flex-direction: column;
+    row-gap: 30px;
+  }
+  .blog__list {
+    margin: 0 auto;
+    order: 1;
+  }
+  .blog__content {
+    order: 2;
+    width: 90%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .blog__heading {
+    max-width: 90%;
+  }
+  /* 16. footer */
+  .footer__top {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 30px;
+    margin-bottom: 30px;
+  }
+  .footer__column:nth-child(2),
+  .footer__column:nth-child(3) {
+    text-align: right;
+  }
+  .footer__column:nth-child(4) {
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
 }
 /* Table */
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -182,6 +217,6 @@
 @media (min-width: 767.98px) {
 }
 /* tạm ẩn không liên quan */
-.footer {
+/* .footer {
   display: none;
-}
+} */
