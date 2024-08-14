@@ -153,6 +153,27 @@
     width: 80%;
     text-align: center;
   }
+  /* 13. Team list */
+  .team__list {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 30px;
+  }
+  /* .team-item__img-bg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  } */
+  .team-item__thumb {
+    margin: 0 auto;
+  }
+  /* 14. khối Install */
+  .install__img {
+    display: none;
+  }
+  .install__content {
+    width: 90%;
+    margin: 0 auto;
+  }
 }
 /* Table */
 @media (min-width: 768px) and (max-width: 991.98px) {
